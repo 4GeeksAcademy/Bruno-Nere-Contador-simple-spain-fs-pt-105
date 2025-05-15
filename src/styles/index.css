@@ -1,11 +1,18 @@
-/* 
+.big-counter {
+display: flex;
+justify-content: center;
+align-items: center;
+background: black;
+padding: 20px;
+font-size: 60px;
+color: white;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.digit, .clock {
+    background: #111;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+    min-width: 60px;
+    text-align: center;
+}
